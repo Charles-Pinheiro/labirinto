@@ -49,30 +49,73 @@ table {
 
 /*===========reset==============*/
 
-#container {
-   height: 300px;
-   width: 420px;
-   display: flex;
-   flex-wrap: wrap;
+body {
+   background-image: url(https://ae01.alicdn.com/kf/H549cdabe79c94b5d9eca9f414c93b7a2L/8x8ft-grama-fada-alice-wonderland-flores-buraco-da-fechadura-castelo-jardim-personalizado-photo-studio-backdrops-vinil.jpg);
 }
 
-.colunas1 {
-   height: 20px;
-   width: 20px;
-   background-color: blue;
+h1 {
+   text-align: center;
+   font-size: 45px;
+   color: white;
 }
-.colunas2 {
-   height: 20px;
-   width: 20px;
+
+h2 {
+   text-align: center;
+   font-size: 40px;
+   color: white;
+   background-color: yellowgreen;
+}
+
+.t {
+   display: none;
+}
+.win {
+   display: block;
+}
+
+#container {
+   height: 525px;
+   width: 840px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   flex-direction: row;
+}
+
+.line {
+   display: flex;
+}
+
+.wall {
+   height: 35px;
+   width: 40px;
    background-color: black;
+   opacity: 0.8;
 }
-.colunas3 {
-   height: 20px;
-   width: 20px;
-   background-color: gold;
+
+.start {
+   height: 35px;
+   width: 40px;
+   background-image: url(https://w7.pngwing.com/pngs/232/522/png-transparent-alice-in-wonderland-red-queen-queen-of-hearts-alice-s-adventures-in-wonderland-knave-of-hearts-alice-in-wonder-land-alice-in-wonderland-queen-of-hearts-alice-s-adventures-in-wonderland-thumbnail.png);
+   background-size: cover;
+   border-radius: 25px;
 }
-.colunas4 {
-   height: 20px;
-   width: 20px;
+.finish {
+   height: 35px;
+   width: 40px;
+   background-image: url(https://img.favpng.com/15/22/23/cheshire-cat-alice-s-adventures-in-wonderland-the-mad-hatter-queen-of-hearts-png-favpng-YfuQPncH9jW9Q5reGzBYBPtxB.jpg);
+   background-size: cover;
+   border-radius: 25px;
+}
+.way {
+   height: 35px;
+   width: 40px;
    /* background-color: green; */
+}
+#p1 {
+   height: 35px;
+   width: 40px;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfliTi4yEZ85CqtnPVq0tRnzPR_j7ZkY7DmQ&usqp=CAU);
+   background-size: cover;
+   border-radius: 25px;
 }
